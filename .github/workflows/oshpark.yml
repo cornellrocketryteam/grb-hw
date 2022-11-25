@@ -17,4 +17,4 @@ jobs:
 
       - name: Upload to OshPark
         id: upload
-        run: echo oshparkid=$(curl -F file=@grb-hw/gps-radio-beacon.kicad_pcb https://oshpark.com/import.json) >> $GITHUB_OUTPUT
+        run: echo oshparkid=$(curl -F file=@./gps-radio-beacon.kicad_pcb https://oshpark.com/import.json) >> $GITHUB_OUTPUT
