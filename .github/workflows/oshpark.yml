@@ -1,0 +1,20 @@
+name: Upload board to OshPark
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  
+jobs:
+  upload:
+    environment:
+      name: OshPark
+      url: https://oshpark.com/uploads/${{ steps.upload.outputs.oshparkid }}
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2.5.0
+
+      - name: Upload to OshPark
+        id: upload
+        run: echo oshparkid=$(curl -F file=@grb-hw/gps-radio-beacon.kicad_pcb https://oshpark.com/import.json) >> $GITHUB_OUTPUT
