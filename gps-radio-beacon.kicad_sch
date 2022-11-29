@@ -6,10 +6,11 @@
 
   (title_block
     (title "GPS Radio Beacon")
-    (date "2022-11-24")
+    (date "2022-11-28")
     (rev "0.2.0")
     (company "Cornell Rocketry Team")
     (comment 1 "William Barkoff [wb273]")
+    (comment 4 "Licensed under CERN-OHL-W v2")
   )
 
   (lib_symbols
@@ -2048,8 +2049,8 @@
     (pin "12" (uuid 92f09bf8-dff1-4880-b919-4ebe15bf0cd5))
     (pin "13" (uuid 6be660f7-ac25-44a9-863e-c12036880ad4))
     (pin "14" (uuid 4e0d2919-a002-4b59-a212-b538ef00b514))
-    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03a6))
-    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03a6))
+    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03a8))
+    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03a8))
     (pin "16" (uuid db2ce90a-6d91-426a-b265-2071d212ed12))
     (pin "17" (uuid 7920b2ed-600a-4909-88a8-eefbd801d3d4))
     (pin "18" (uuid 13d82d4f-dd54-4a93-9535-f393cf6c0def))

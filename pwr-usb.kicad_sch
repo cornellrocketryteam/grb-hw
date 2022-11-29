@@ -6,7 +6,7 @@
 
   (title_block
     (title "GPS Radio Beacon")
-    (date "2022-11-24")
+    (date "2022-11-28")
     (rev "0.2.0")
     (company "Cornell Rocketry Team")
     (comment 1 "William Barkoff [wb273]")
