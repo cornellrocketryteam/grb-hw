@@ -2049,8 +2049,8 @@
     (pin "12" (uuid 92f09bf8-dff1-4880-b919-4ebe15bf0cd5))
     (pin "13" (uuid 6be660f7-ac25-44a9-863e-c12036880ad4))
     (pin "14" (uuid 4e0d2919-a002-4b59-a212-b538ef00b514))
-    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03a8))
-    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03a8))
+    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03aa))
+    (pin "15" (uuid 7eb4826c-ab3d-4152-8bc3-c3d9465e03aa))
     (pin "16" (uuid db2ce90a-6d91-426a-b265-2071d212ed12))
     (pin "17" (uuid 7920b2ed-600a-4909-88a8-eefbd801d3d4))
     (pin "18" (uuid 13d82d4f-dd54-4a93-9535-f393cf6c0def))
@@ -2253,7 +2253,7 @@
     (path "/f32be46b-3b18-4492-b182-7393704a2fa9"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
-    (path "/347cbce7-1bff-4e1d-98eb-b36eb30fbe98/04b18c13-7464-4ebc-a3bc-fd79b1be55c7"
+    (path "/347cbce7-1bff-4e1d-98eb-b36eb30fbe98/dc3f077c-4e1d-4b83-a6fb-1df13dde8bd0"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/c752f9b8-4b87-42a3-895f-e548598e8791"
@@ -2315,6 +2315,9 @@
     )
     (path "/5e7abdda-c007-4edf-b661-33fa6b52ed50"
       (reference "J5") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal")
+    )
+    (path "/347cbce7-1bff-4e1d-98eb-b36eb30fbe98/e1081811-cc50-4058-919c-1b3eefb92e30"
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/b6b475e6-0fa5-4be2-92a2-e08186a7d801"
       (reference "L1") (unit 1) (value "27n") (footprint "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
