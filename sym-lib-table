@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "GRB-HW")(type "KiCad")(uri "${KIPRJMOD}/grb-hw.kicad_sym")(options "")(descr ""))
+  (version 7)
   (lib (name "grb")(type "KiCad")(uri "${KIPRJMOD}/grb.kicad_sym")(options "")(descr ""))
 )
