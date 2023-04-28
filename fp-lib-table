@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "grb")(type "KiCad")(uri "${KIPRJMOD}/grb.pretty")(options "")(descr ""))
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/rp_pico_libs/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
 )

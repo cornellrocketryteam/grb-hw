@@ -56,7 +56,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "drill_out_of_range|202040000|76900000|aa2d3de4-f275-4670-8169-c708207ef521|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|202040000|85660000|517aff4a-699f-4000-9ed5-817104496210|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|221090000|56580000|aa2d3de4-f275-4670-8169-c708207ef521|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|221090000|65340000|517aff4a-699f-4000-9ed5-817104496210|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|141950000|72760000|edf0e364-c49a-4c49-a044-e3e8937a8878|4cde9135-debd-414c-b485-3d5c5b8e7e38",
+        "silk_overlap|141950000|74560000|19d381f1-24a1-4e1c-8664-a24324b64c96|4cde9135-debd-414c-b485-3d5c5b8e7e38",
+        "silk_overlap|141950000|90540000|edf0e364-c49a-4c49-a044-e3e8937a8878|4cde9135-debd-414c-b485-3d5c5b8e7e38",
+        "silk_overlap|141950000|92340000|19d381f1-24a1-4e1c-8664-a24324b64c96|4cde9135-debd-414c-b485-3d5c5b8e7e38",
+        "silk_overlap|152060000|100750000|73a7c949-a72e-4d64-ac89-ad37e50c12a8|abc000dc-9c3d-4060-8922-1e5b980cfb58",
+        "silk_overlap|152060000|104990000|0b7af6db-3be9-4f59-9c8b-8e8f3aee145f|2543b2ee-68fa-4754-ab8b-d69fad7d50a9",
+        "silk_overlap|152060000|113450000|cd753d50-a6a7-45ee-9e74-b073fe5ee3b3|0bb6b9a2-c1ed-4f7f-a769-6bd3e1a77123",
+        "silk_overlap|152060000|66890000|633c88aa-92e3-4428-9ab9-46c6de80c3c1|9051d617-8a0a-44a4-8eea-5ead02fb4987",
+        "silk_overlap|152060000|74510000|9813bba5-a1d9-4718-898a-a131bce13aed|c0c487c2-e14a-4fe4-b5f1-35fec1fbc1fa",
+        "silk_overlap|152060000|79590000|4d58943c-3076-4c1f-b0c1-e6ba98019077|2c82cf1b-d938-4c5b-acea-dac6dfdb4fbb",
+        "silk_overlap|152060000|88050000|b8eb326a-2785-4c07-97a1-71e61c57fb57|78c12585-6e75-4264-a857-38ce86393f26",
+        "silk_overlap|152060000|92290000|d4ba045d-cb33-4947-b0a3-560a392addd5|ba5a52e5-70d6-40d1-b73b-5fd294969d1f",
+        "silk_overlap|160870000|64670000|d108a8d7-6740-4044-a1a9-a306fb6c4baa|cf46292b-3ed8-4479-8148-4813c9a76bbc",
+        "silk_overlap|164250000|64670000|96131555-f08d-42a1-9aad-60e8d1f305c1|d7564233-469e-4b47-8914-6cc0dd3b3a7e",
+        "silk_overlap|173060000|100750000|ca0e481d-8239-42ce-8624-c47f5f5112be|084cef1f-beb3-401a-b89a-08266f3696cc",
+        "silk_overlap|173060000|104990000|98dd2ba4-90f0-4de6-94d5-7675ec954f02|bb8547c8-9c34-459b-840c-7f62ea27fb2b",
+        "silk_overlap|173060000|113450000|3ef92794-bbf1-4cfc-8ef2-7b74fef843cf|2f166b29-7bcc-4a22-ae80-646eb20c1b6f",
+        "silk_overlap|173060000|66890000|f2576b92-aa6c-4301-b5e7-9d794a134790|167bd38f-3afd-4d22-8e3f-8446f5d3cd3f",
+        "silk_overlap|173060000|74510000|30eaf4ed-c259-4a9d-9f74-d5643620bc2c|38c134c5-c649-4b0e-b3c5-5c2faedd1bdb",
+        "silk_overlap|173060000|79590000|97eb1db6-e9ca-47bc-ada4-75f7c057b5df|4832bdeb-8f14-407d-813f-5d3ad1bdd1d9",
+        "silk_overlap|173060000|88050000|3c0b570e-64e8-4175-8437-4c7f2ad60305|40def515-0046-49cf-92e4-a1054a559f41",
+        "silk_overlap|173060000|92290000|2fd05a4c-0047-447f-9a6a-3c380db425d9|1434a354-07db-4547-bb4f-b8672af20be1",
+        "silk_overlap|185210000|71695000|3b719713-1bfd-4a75-b2e7-a6c561716620|ce86e4d5-eaf0-4fb4-8aab-c529862d9bef",
+        "silk_overlap|185210000|71695000|e9c92693-04cd-41bd-bb9b-1fb14915990a|ce86e4d5-eaf0-4fb4-8aab-c529862d9bef",
+        "silk_overlap|185210000|72277500|e9c92693-04cd-41bd-bb9b-1fb14915990a|ce86e4d5-eaf0-4fb4-8aab-c529862d9bef",
+        "silk_overlap|185260000|55495000|609ed7ea-1107-42ac-bae3-409e4fd793e3|722c8e06-bdc2-47bc-b913-03e69b58f699",
+        "silk_overlap|200660000|55495000|bf3839d8-f17b-473e-92c0-c836d59312d0|fd2044d0-c299-43ae-8b50-f1e9e67fae3f",
+        "silk_overlap|200660000|71695000|016d3ab1-f9f9-467b-9b35-8d425e03c714|117113c6-18e7-4920-b11e-9b9a2606aaba"
+      ],
       "meta": {
         "version": 2
       },
@@ -416,7 +449,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.0508,
+        "clearance": 0.0889,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -498,10 +531,6 @@
     [
       "959e3fdc-9d33-48b9-8bc6-d0e68ba193ed",
       ""
-    ],
-    [
-      "347cbce7-1bff-4e1d-98eb-b36eb30fbe98",
-      "PWR-USB"
     ]
   ],
   "text_variables": {}
